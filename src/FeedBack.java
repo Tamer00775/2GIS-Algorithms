@@ -1,3 +1,6 @@
+package src;
+
+import src.Edge;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,8 +10,8 @@ class FeedBack {
     public static Trie root = null;
     String[] location_name;
     int size = -1;
-    String fill_in = "C:\\Users\\acer\\Desktop\\TwoGis\\src\\Fill_in";
-    String relation = "C:\\Users\\acer\\Desktop\\TwoGis\\src\\RelationShip";
+    String fill_in = "C:\\Users\\Home\\Desktop\\advalgo\\src\\Fill_in";
+    String relation = "C:\\Users\\Home\\Desktop\\advalgo\\src\\RelationShip (5)";
     public int E;
     public int V;
     ArrayList<Edge>[] list_of_edges;
